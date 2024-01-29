@@ -3,7 +3,7 @@ import { useFadeAnimated } from "../Hooks/useFadeAnimated"
 
 export const FadeScreen = () => {
 
-    const { fadeIn, fadeOut, opacity} = useFadeAnimated()
+    const { fadeIn, fadeOut, opacity } = useFadeAnimated()
 
     return (
         <View style={{
@@ -23,7 +23,7 @@ export const FadeScreen = () => {
 
             <Button onPress={fadeIn} title="fadeIn" />
             <Button onPress={fadeOut} title="fadeOut" />
-
+            
         </View>
     )
 }
